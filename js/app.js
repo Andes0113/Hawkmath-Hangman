@@ -44,4 +44,5 @@ function reset(){
         imgs.eq(i).attr("src", "images/liveHeart.png");
     }
     game.missed = 0;
+    game.startGame();
 }
