@@ -9,8 +9,8 @@
   --color-start: #5b85b7;
   --color-neutral: #445069;
   --color-neutral-light: #D2D2D2;
-  --color-keys: #37474F;
-  --color-keys-light: #E5E5E5;
+  --color-keys: #FFFFFF;
+  --color-keys-light: #4F32AB;
   --font-size-large: 60px;
   --font-size-medium: 20px;
   --transition: all .2s ease-in-out;
@@ -176,11 +176,11 @@ button {
 }
 
 .title {
-  color: #FFF;
+  color: #4F32AB;
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #ffffff;
 }
 
 .start a {
@@ -201,4 +201,8 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+
+#centerimg{
+  text-align: center;
 }
