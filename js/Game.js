@@ -77,10 +77,10 @@ class Game{
     gameOver(){
         $("#overlay").show();
         if(this.checkForWin()){
-            $("#game-over-message").html('You win! Nice Hawkmath knowledge!');
+            $("#game-over-message").html('You win! Nice HawkMath knowledge!');
             $('.start').prop('class', 'win');
         }else{
-            $("#game-over-message").html("You lose. Brush up on Hawkmath's youtube channel.");
+            $("#game-over-message").html("You lose. Brush up on some <a href='https://www.youtube.com/channel/UCp0CXmex4_e1NpGo8EW7uZA'>HawkMath</a>.");
             $(".start").prop("class", "lose");
         }
     }
