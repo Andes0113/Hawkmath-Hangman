@@ -57,7 +57,7 @@ class Game{
             }
         }
         this.missed++;
-        if(this.missed == 5){
+        if(this.missed == 6){
             this.gameOver();
         }
     }
