@@ -1,5 +1,7 @@
-Hawkmath Youtube Channel Phrase Hunter
+Hawkmath Youtube Channel HangMan
+
 Alex Rowe
+
 A hangman type game where users use a buttons or their keyboard to guess Hawkmath related phrases.
 
 - Changed key text color to white
